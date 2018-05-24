@@ -1,8 +1,8 @@
 class Alacritty < Formula
   desc "Cross-platform, GPU-accelerated terminal emulator"
   homepage "https://github.com/jwilm/alacritty"
-  revision 2
-  head "https://github.com/jwilm/alacritty.git", :using => :git
+  revision 3
+  head "https://github.com/jwilm/alacritty.git", :using => :git, :branch => "scrollback"
 
   option "with-rustc-version", "Use 'rustc' version from distribution"
 
